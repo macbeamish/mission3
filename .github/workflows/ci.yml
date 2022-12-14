@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [ test_ci ]
+    branches: [ feature ]
   
   workflow_dispatch:
   
@@ -11,12 +11,9 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-      
-      - name: Run a one-line script
-        run: echo Hello World!
         
-      - name: Run another script
-        run: This is a new command.
+      - name: List all files
+        run: ls
         
         
   
