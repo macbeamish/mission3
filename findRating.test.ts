@@ -1,11 +1,7 @@
 import {findRating, check} from "./findRating"
 const arrayInput = ["collide","crash","scratch","smash", "bump"];
 const testCases = [
-    {
-        scenario: "when test string is: i crashed my scratchy bumper into a dog - return: ",
-        input: " i crashed my scratchy bumper into a dog",     
-        expected: 3
-    },
+  
     {
         scenario: "when test string is: My only claim was a crash into my house's garage door that left a scratch on my car. There are no other crashes. - return: ",
         input: "My only claim was a crash into my house's garage door that left a scratch on my car. There are no other crashes.",
@@ -15,11 +11,6 @@ const testCases = [
         scenario: "when test string is:  I had a bumpy ride to the airport and crashed out on the neighbours couch. - return: ",
         input: " I had a bumpy ride to the airport and crashed out on the neighbours couch",
         expected: 2
-    },
-    {
-        scenario: "when test string is: a b c d e f g -return: ",
-        input: "a b c d e f g", 
-        expected: -1
     },
     {
         scenario: "when test string is: i collided with a pole - return: ",
