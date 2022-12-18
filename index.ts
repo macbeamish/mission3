@@ -3,6 +3,7 @@ const env = require("dotenv");
 const server = express();
 env.config();
 import {findRating, check} from "./findRating"
+
 server.use(express.json());
 const PORT = process.env.PORT || 3002;
 
