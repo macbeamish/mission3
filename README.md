@@ -1,1 +1,1 @@
-For this mission i worked on API 2, I built a react express app, built with typescript tested with jest and used postman for the api.
+This app is a basic API example, It is built in React using Express, I have written the business logic in Typescript and run Tests with Jest.
